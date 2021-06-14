@@ -34,11 +34,11 @@ module.exports = appInfo => {
   // change to your own sequelize configurations
   config.sequelize = {
     dialect: 'mysql',
-    host: 'localhost',
+    host: '42.192.90.48',
     port: 3306,
-    database: 'covid-19',
-    username: 'root',
-    password: '',
+    database: 'covid',
+    username: 'covid',
+    password: 'covid',
     define: {
       freezeTableName: true,
     },
